@@ -1,8 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Municipio } from './Municipio'
 import { Provincia } from './Provincia'
-import { useEuskadiData } from '../../hooks/useEuskadiData'
-import { useMunicipios } from '../../hooks/useMunicipios'
 
 export function Main () {
   const [provincia, setProvincia] = useState('')

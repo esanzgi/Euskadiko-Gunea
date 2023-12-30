@@ -6,7 +6,8 @@ header("Access-Control-Allow-Origin: *");
 header('Access-Control-Allow-Methods', 'GET, POST');
 
 // fichero directamente
-$fichero =  "espacios-naturales.json";
+ $fichero =  "espacios-naturales.json";
+//$fichero = "https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/espacios_naturales_euskadi/opendata/espacios-naturales.json";
 
 // fichero a traves de parametro
 //$fichero =  $_GET["fichero"];
